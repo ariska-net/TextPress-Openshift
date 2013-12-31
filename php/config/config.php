@@ -1,12 +1,12 @@
 <?php
 return array(
-	'date.format' => 'd M, Y',   // Date format to be used in article page (not for routes)   
+	'date.format' => 'j F Y',   // Date format to be used in article page (not for routes)   
 	'author.name' => 'Author name', // Global author name 
 	'site.name'  => 'TextPress',   // Site name (Global)
 	'site.title' => 'PHP Flat-file blog engine',  // Site default title (Global)
 	'article.path'=> './articles',      // Path to articles
 	'themes.path' => './themes',  // Path to templates
-	'active.theme'  => 'textpress',  // Current active template
+	'active.theme'  => 'classic',  // Current active template
 	'layout.file' => 'layout',    // Site layout file
 	'file.extension' => '.txt',   // file extension of articles
 	'disqus.username' => '',   // Your disqus username or false (Global)
@@ -21,7 +21,7 @@ return array(
 			'__root__'=> array(
 					'route' => '/',
 					'template'=>'index',
-					'layout' => 'layout_home'
+					'layout' => 'layout'
 				),
 			'article' => array(
 					'route' => '/:year/:month/:date/:article',

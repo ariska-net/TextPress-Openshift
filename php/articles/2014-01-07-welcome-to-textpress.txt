@@ -1,6 +1,6 @@
 {
  "title":"Welcome to TextPress",
- "date" : "07-02-2012",
+ "date" : "01-01-2014",
  "slug" : "welcome-to-textpress",
  "author" : "Admin",
  "tag" : "Intro, TextPress",
