@@ -1,4 +1,6 @@
 <?php
+ini_set('display_errors', true);
+error_reporting(E_ALL);
 /**
 * Require Slim and register Slim autoloader
 */
